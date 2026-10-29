@@ -1,5 +1,12 @@
 # WebAPI Changelog
 
+## 2.17.0
+
+* [#24955](https://github.com/qbittorrent/qBittorrent/pull/24955)
+  * `search/results` endpoint includes `engineFullName` (string) data as the display name of the engine
+* [#25093](https://github.com/qbittorrent/qBittorrent/pull/25093)
+  * `torrents/info` and `sync/maindata` endpoints include `error` (string) data, the reason why the torrent is in `error` state (empty otherwise)
+
 ## 2.16.2
 
 * [#24920](https://github.com/qbittorrent/qBittorrent/pull/24920)
