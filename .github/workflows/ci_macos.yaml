@@ -11,7 +11,7 @@ concurrency:
 jobs:
   ci:
     name: Build
-    runs-on: macos-15
+    runs-on: macos-15 # this is just a comment to get Actions to run
     permissions:
       actions: write
 
